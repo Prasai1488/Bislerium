@@ -16,6 +16,11 @@ export default function Post() {
         <span className="postTitle">Lorem ipsum dolor sit amet</span>
         <hr />
         <span className="postDate">1 hour ago</span>
+        <div className="react">
+        <span className="reactIcon"><i class="fa-regular fa-thumbs-up"></i></span>
+        <span className="reactIcon"><i class="fa-regular fa-thumbs-down"></i></span>
+        <span className="reactIcon"><i class="fa-regular fa-comments"></i></span>
+        </div>
       </div>
       <p className="postDesc">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias adipisci

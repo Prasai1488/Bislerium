@@ -54,3 +54,17 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+
+.react{
+  margin-top: 10px;
+}
+
+.reactIcon{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+      
+}

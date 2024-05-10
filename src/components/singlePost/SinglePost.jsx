@@ -1,6 +1,7 @@
 import "./singlePost.css";
 
 export default function SinglePost() {
+  const isUser = false;
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
@@ -11,10 +12,13 @@ export default function SinglePost() {
         />
         <h1 className="singlePostTitle">
           Lorem ipsum dolor sit amet.
+          {isUser && (
           <div className="singlePostEdit">
-            <i className="singlePostIcon fa-regular fa-pen-to-square"></i>
-            <i className="singlePostIcon fa-regular fa-trash-can"></i>
-          </div>
+          <i className="singlePostIcon fa-regular fa-pen-to-square"></i>
+          <i className="singlePostIcon fa-regular fa-trash-can"></i>
+        </div>  
+          )}
+          
         </h1>
         <div className="singlePostInfo">
           <span className="singlePostAuthor">

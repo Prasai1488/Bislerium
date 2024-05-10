@@ -1,0 +1,32 @@
+.aboutContainer {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern and clean font */
+    color: #333; /* Refined text color */
+    background-color: #f0ede5; /* Soft background color */
+    padding: 40px 80px; /* Adequate padding for breathing space */
+    max-width: 1000px; /* Increased max-width for better line length */
+    margin: 40px auto; /* Center alignment with top and bottom margin */
+    line-height: 1.8; /* Improved line height for readability */
+    height: 400px;
+    padding: 100px;
+  }
+  
+  .aboutContainer h1, .aboutContainer h2 {
+    font-size: 36px; /* Slightly larger font size for headers */
+    color: #000; /* Darker color for emphasis */
+    margin-bottom: 20px; /* Consistent bottom margin for headers */
+    letter-spacing: 2px; /* Added letter spacing for a premium feel */
+  }
+  
+  .aboutContainer p {
+    font-size: 18px; /* Appropriate font size for body text */
+    margin-bottom: 20px; /* Consistent bottom margin */
+    text-align: justify; /* Justified text for a clean look */
+  }
+  
+  /* Additional styling for sub-header */
+  .aboutContainer h2 {
+    font-size: 28px; /* Differentiating sub-header font size */
+    font-weight: normal; /* Normal font weight for sub-header */
+    text-transform: none; /* Remove uppercase for sub-header */
+  }
+  
